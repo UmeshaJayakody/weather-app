@@ -1,0 +1,115 @@
+.header {
+  position: relative;
+  z-index: 2;
+  padding: 2rem;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: white;
+}
+
+.logo svg {
+  width: 32px;
+  height: 32px;
+  color: #fbbf24;
+}
+
+.logo-image {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.logo h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.search-form {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.city-input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 1rem;
+  outline: none;
+  backdrop-filter: blur(10px);
+}
+
+.city-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.city-input:focus {
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.5);
+}
+
+.add-city-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: #8b5cf6;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-city-btn:hover {
+  background: #7c3aed;
+}
+
+.add-city-btn:active {
+  background: #6d28d9;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 1.5rem 1rem;
+  }
+  
+  .header-content {
+    gap: 1.5rem;
+  }
+  
+  .logo h1 {
+    font-size: 1.25rem;
+  }
+  
+  .search-form {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-form {
+    flex-direction: column;
+  }
+  
+  .add-city-btn {
+    width: 100%;
+  }
+}
