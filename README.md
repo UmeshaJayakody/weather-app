@@ -1,10 +1,9 @@
-# Weather App 🌤️
+# 🌤️ Weather App
 
 A modern, responsive weather application built with React that provides real-time weather information for cities around the world. The app features user authentication via Auth0 and displays weather data in an intuitive grid layout.
 
-<img src="src/assets/weather-app.png" alt="Weather App" width="300">
 
-## Features ✨
+## Features
 
 - **Real-time Weather Data**: Get current weather information using OpenWeatherMap API
 - **User Authentication**: Secure login/logout functionality powered by Auth0
@@ -14,7 +13,7 @@ A modern, responsive weather application built with React that provides real-tim
 - **Modern UI**: Clean and intuitive interface with weather icons and status indicators
 - **Data Caching**: Efficient data fetching with React Query (5-minute cache)
 
-## Tech Stack 🛠️
+## Tech Stack
 
 - **Frontend Framework**: React 18
 - **Build Tool**: Vite
@@ -23,7 +22,7 @@ A modern, responsive weather application built with React that provides real-tim
 - **Data Fetching**: React Query + Axios
 - **Weather API**: OpenWeatherMap
 
-## Prerequisites 📋
+## Prerequisites
 
 Before running this application, make sure you have:
 
@@ -32,7 +31,7 @@ Before running this application, make sure you have:
 - Auth0 account and application setup
 - OpenWeatherMap API key
 
-## Installation 🚀
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -66,7 +65,7 @@ Before running this application, make sure you have:
    - Get your free API key
    - Replace the API key in `src/hooks/useWeather.js` or use environment variables
 
-## Usage 🖥️
+## Usage
 
 1. **Start the development server**
    ```bash
@@ -84,7 +83,7 @@ Before running this application, make sure you have:
    - Click on any card for detailed weather information
    - Use the back button to return to the grid view
 
-## Project Structure 📁
+## Project Structure
 
 ```
 weather-app/
@@ -116,7 +115,7 @@ weather-app/
 └── README.md
 ```
 
-## Key Components 🧩
+## Key Components
 
 ### `App.jsx`
 Main application component that handles routing, authentication state, and global app layout.
@@ -133,20 +132,20 @@ Detailed weather view component with comprehensive weather information.
 ### `useWeather.js`
 Custom hook for fetching weather data from OpenWeatherMap API with React Query.
 
-## Available Scripts 📜
+## Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build locally
 
-## API Integration 🌐
+## API Integration
 
 The app integrates with:
 
 1. **OpenWeatherMap API**: Fetches real-time weather data
 2. **Auth0**: Handles user authentication and authorization
 
-## Cities Supported 🌍
+## Cities Supported
 
 The app comes with weather data for these cities:
 - Colombo, Sri Lanka
@@ -158,7 +157,7 @@ The app comes with weather data for these cities:
 - Shanghai, China
 - Oslo, Norway
 
-## Contributing 🤝
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -166,7 +165,7 @@ The app comes with weather data for these cities:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## Future Enhancements 🔮
+## Future Enhancements
 
 - [ ] Add more cities dynamically
 - [ ] Weather forecasts (5-day/7-day)
@@ -176,11 +175,11 @@ The app comes with weather data for these cities:
 - [ ] Dark/light theme toggle
 - [ ] Weather history tracking
 
-## License 📄
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments 🙏
+## Acknowledgments
 
 - [OpenWeatherMap](https://openweathermap.org/) for weather data API
 - [Auth0](https://auth0.com/) for authentication services
@@ -188,7 +187,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [React Query](https://react-query.tanstack.com/) for data fetching
 - Fidenz Technologies for design inspiration
 
-## Support 💬
+## Support
 
 If you have any questions or run into issues, please open an issue on GitHub or contact the development team.
 
