@@ -2,7 +2,7 @@
 
 A modern, responsive weather application built with React that provides real-time weather information for cities around the world. The app features user authentication via Auth0 and displays weather data in an intuitive grid layout.
 
-![Weather App](src/assets/weather-app.png)
+<img src="src/assets/weather-app.png" alt="Weather App" width="300">
 
 ## Features ✨
 
