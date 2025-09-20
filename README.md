@@ -45,14 +45,6 @@ Before running this application, make sure you have:
    ```
 
 3. **Environment Setup**
-   
-   Create a `.env` file in the root directory and add your configuration:
-   ```env
-   VITE_AUTH0_DOMAIN=your-auth0-domain
-   VITE_AUTH0_CLIENT_ID=your-auth0-client-id
-   VITE_AUTH0_AUDIENCE=your-auth0-audience
-   VITE_OPENWEATHER_API_KEY=your-openweathermap-api-key
-   ```
 
 4. **Auth0 Configuration**
    - Create an Auth0 application
